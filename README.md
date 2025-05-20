@@ -3,7 +3,7 @@
 💻 Software Engineering student at Fontys Hogeschool <br>
 🧑🏻‍💻 I create Web Application and Mobile Application to keep my neurodivergent brain stimulated 🧠<br>
 📱 I'm actively developing [Evento](https://eventoaruba.com/)<br>
-📷 If I'm not coding, I'm probably travelling and posting on my [instagram](https://instagram.com/brndndiaz.dev) 🤓<br><br>
+📷 If I'm not coding, I'm probably traveling and posting on my [instagram](https://instagram.com/brndndiaz.dev) 🤓<br><br>
 
 
 ## 🌐 Socials:
