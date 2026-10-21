@@ -2,7 +2,7 @@
 <img src="https://media.tenor.com/Tsob5aHiS3UAAAAM/hello-there.gif" width=100></img><br>
 💻 Software Engineering student at Fontys Hogeschool <br>
 🧑🏻‍💻 I create Web Application and Mobile Application to keep my neurodivergent brain stimulated 🧠<br>
-📱 I'm actively developing [Evento](https://eventoaruba.com/)<br>
+📱 I'm actively developing [Evento](https://theeventoapp.com/)<br>
 📷 If I'm not coding, I'm probably traveling<br><br>
 
 
