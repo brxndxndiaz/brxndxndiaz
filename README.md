@@ -8,17 +8,17 @@
   <a href="mailto:info@brndndiaz.dev">Email</a>
 </p>
 
-Software engineer working across frontend, backend and infrastructure. Studying Software Engineering at Fontys and working part-time as a full-stack developer at Code for Good.
+Software Engineering at Fontys · Full-stack developer at Code for Good
 
 <br>
 
 ## Evento
 
 <p align="center">
-  <img src="./assets/evento.svg" width="100%" alt="Evento system map" />
+  <img src="./assets/evento.svg" width="100%" alt="Evento product system" />
 </p>
 
-Event ticketing platform for Aruba and Curaçao. I work across the application, API and infrastructure: event management, ticketing, payments, QR admission, organizer tooling, authentication, deployment and operations.
+Event ticketing platform for Aruba and Curaçao. My work spans the application, API and infrastructure: event management, payments, ticketing, QR admission, organizer tooling, authentication, deployment and operations.
 
 [theeventoapp.com →](https://theeventoapp.com/)
 
@@ -26,18 +26,18 @@ Event ticketing platform for Aruba and Curaçao. I work across the application, 
 
 ## Carte Mail
 
-**Mail that runs on your server.** Self-hosted mail infrastructure, currently in development.
+Self-hosted mail platform. In development.
 
 <br>
 
 ## Stack
 
 <p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Technologies I work with" />
+  <img src="./assets/stack.svg" width="100%" alt="Technology stack" />
 </p>
 
 <br>
 
 ## Outside software
 
-**BRNDN D!AZ** — music production, piano, steelpan and guitar. Photography and video editing.
+**BRNDN D!AZ** · music production · piano · steelpan · guitar · photography · video
