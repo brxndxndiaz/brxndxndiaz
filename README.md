@@ -1,54 +1,48 @@
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Brandon Diaz — Software Engineer" />
-</p>
+# Brandon Diaz
 
-<p align="center">
-  <a href="https://brndndiaz.dev">Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/brandonwdiaz/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:info@brndndiaz.dev">Email</a>
-</p>
+**Software Engineer / Full-Stack Developer**  
+Eindhoven, Netherlands · Aruba
 
-I'm a Software Engineering student at Fontys in Eindhoven and a part-time full-stack developer at Code for Good. I work across frontend, backend, mobile and infrastructure, usually in TypeScript-first stacks.
+I work across web, mobile, backend and infrastructure. I'm studying Software Engineering at Fontys University of Applied Sciences and work part-time as a full-stack developer at Code for Good.
 
-Originally from Aruba. Outside software, I produce music as **BRNDN D!AZ** and spend a lot of time around photography, video and guitar.
+[Portfolio](https://brndndiaz.dev) · [LinkedIn](https://www.linkedin.com/in/brandonwdiaz/) · [Email](mailto:info@brndndiaz.dev)
 
 ---
 
-<p align="center">
-  <a href="https://theeventoapp.com/">
-    <img src="./assets/evento.svg" width="100%" alt="Evento — event ticketing platform for Aruba and Curaçao" />
-  </a>
-</p>
+## Evento
 
-Evento is an event ticketing platform for Aruba and Curaçao. I work across the product: event management, ticketing and payments, QR admission, organizer tooling, authentication, deployment and operations.
+**Event ticketing for Aruba + Curaçao.**
 
-`Next.js` · `Laravel` · `TypeScript` · `PostgreSQL` · `Redis` · `Docker` · `Cloudflare`
+I work across the application, API and infrastructure: event management, payments, ticketing, QR admission, organizer tooling, authentication, deployment and operations.
 
-[**theeventoapp.com →**](https://theeventoapp.com/)
+`Next.js` `Laravel` `TypeScript` `PostgreSQL` `Redis` `Docker` `Cloudflare`
+
+[theeventoapp.com →](https://theeventoapp.com/)
 
 ---
 
 ## Carte Mail
 
-**Mail that runs on your server.** A self-hosted mail platform I'm building, currently in development.
+**Mail that runs on your server.**
+
+Self-hosted mail platform. Currently in development.
 
 ---
 
 ## What I work with
 
-| | |
-| --- | --- |
-| **Languages** | TypeScript · PHP · Go · JavaScript · SQL |
-| **Web & mobile** | React · Next.js · React Native · Expo · Laravel |
-| **Data** | PostgreSQL · Redis |
-| **Infrastructure** | Docker · Linux · Cloudflare |
+**Web / mobile**  
+TypeScript · React · Next.js · React Native · Expo
 
-I also have a cybersecurity specialization within my Software Engineering degree, mostly as a way to make the systems I build harder to break rather than as a separate professional identity.
+**Backend / data**  
+PHP · Go · Laravel · PostgreSQL · Redis
+
+**Infrastructure**  
+Docker · Linux · Cloudflare
 
 ---
 
 ## Outside software
 
-**BRNDN D!AZ** — music production, piano, steelpan and guitar.
-
+**BRNDN D!AZ** — music production · piano · steelpan · guitar  
 Photography · graphic design · video editing
