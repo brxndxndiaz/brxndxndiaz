@@ -1,8 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Brandon Diaz — Software Engineer">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17181a"/><stop offset="1" stop-color="#202124"/></linearGradient><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".025"/></pattern></defs>
-<style>.sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}.cursor{animation:blink 1.15s steps(1) infinite}@keyframes blink{50%{opacity:0}}</style>
-<rect width="1200" height="360" rx="20" fill="url(#bg)"/><rect width="1200" height="360" rx="20" fill="url(#grid)"/><rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#fff" stroke-opacity=".10"/>
-<g transform="translate(60 63)"><text class="mono" fill="#8d8f94" font-size="13" letter-spacing="2.4">BRANDON DIAZ</text><text y="91" class="sans" fill="#f4f4f2" font-size="72" font-weight="720" letter-spacing="-3.2">Software Engineer</text><text y="140" class="sans" fill="#a7a9ad" font-size="23">Full-stack development · web · mobile · infrastructure<tspan class="cursor" fill="#f4f4f2">_</tspan></text></g>
-<line x1="60" y1="272" x2="1140" y2="272" stroke="#fff" stroke-opacity=".09"/>
-<g class="mono" fill="#77797e" font-size="12"><text x="60" y="309">EINDHOVEN, NL</text><text x="1040" y="309">GITHUB / BRXNDXNDIAZ</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Brandon Diaz — Software Engineer">
+<style>
+.s{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+.mark{animation:pulse 4s ease-in-out infinite}@keyframes pulse{50%{opacity:.28}}
+</style>
+<rect width="1200" height="430" rx="18" fill="#1d1e20"/>
+<rect x="1" y="1" width="1198" height="428" rx="17" fill="none" stroke="#f5f5f2" stroke-opacity=".10"/>
+<path d="M42 72H1158M42 358H1158" stroke="#f5f5f2" stroke-opacity=".09"/>
+<path d="M42 42v18M42 42h18M1158 42h-18M1158 42v18M42 388v-18M42 388h18M1158 388h-18M1158 388v-18" fill="none" stroke="#f5f5f2" stroke-opacity=".35"/>
+<circle class="mark" cx="1091" cy="124" r="4" fill="#f5f5f2"/><circle class="mark" cx="1115" cy="124" r="4" fill="#f5f5f2" opacity=".45"/>
+<text x="54" y="58" class="m" fill="#85878b" font-size="12" letter-spacing="2">BRANDON DIAZ / 2026</text>
+<text x="48" y="203" class="s" fill="#f5f5f2" font-size="105" font-weight="760" letter-spacing="-6">BRANDON</text>
+<text x="48" y="302" class="s" fill="#f5f5f2" font-size="105" font-weight="760" letter-spacing="-6">DIAZ</text>
+<text x="790" y="203" class="m" fill="#b0b1b4" font-size="15" letter-spacing="1.6">SOFTWARE ENGINEER</text>
+<text x="790" y="230" class="m" fill="#77797d" font-size="13">FRONTEND / BACKEND / INFRASTRUCTURE</text>
+<text x="54" y="390" class="m" fill="#77797d" font-size="12">EINDHOVEN, NETHERLANDS</text>
+<text x="982" y="390" class="m" fill="#77797d" font-size="12">BRXNDXNDIAZ</text>
 </svg>
