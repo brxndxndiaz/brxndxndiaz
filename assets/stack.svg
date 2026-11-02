@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Technologies Brandon works with">
+<style>.s{font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}</style>
+<rect width="1200" height="250" rx="16" fill="#1d1e20"/><rect x="1" y="1" width="1198" height="248" rx="15" fill="none" stroke="#fff" stroke-opacity=".1"/>
+<g class="m" font-size="11" fill="#717378"><text x="44" y="42">LANGUAGES</text><text x="332" y="42">APPLICATION</text><text x="620" y="42">DATA</text><text x="908" y="42">INFRASTRUCTURE</text></g>
+<g class="s" font-size="20" fill="#f1f1ef"><text x="44" y="84">TypeScript</text><text x="44" y="121">PHP</text><text x="44" y="158">Go</text><text x="44" y="195">Python</text><text x="332" y="84">React / Next.js</text><text x="332" y="121">React Native / Expo</text><text x="332" y="158">Laravel</text><text x="332" y="195">Node.js</text><text x="620" y="84">PostgreSQL</text><text x="620" y="121">Redis</text><text x="620" y="158">MySQL</text><text x="908" y="84">Docker / Linux</text><text x="908" y="121">Cloudflare</text><text x="908" y="158">Traefik</text><text x="908" y="195">GitHub Actions</text></g>
+</svg>
