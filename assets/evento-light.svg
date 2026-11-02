@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Evento — event ticketing for Aruba and Curaçao">
+<rect width="1200" height="360" fill="#F4F4F0"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="54" y="55" fill="#4E5054" font-size="20" font-weight="700" letter-spacing="1.5">FEATURED WORK · 01</text>
+<text x="54" y="154" fill="#17181A" font-size="82" font-weight="900" letter-spacing="-4">EVENTO</text>
+<text x="56" y="198" fill="#17181A" font-size="28" font-weight="700">Event ticketing for Aruba + Curaçao</text>
+<text x="56" y="238" fill="#4E5054" font-size="24">Full-stack development across product, API and operations.</text>
+<line x1="56" y1="282" x2="1144" y2="282" stroke="#B8BABD" stroke-width="1"/>
+<text x="56" y="320" fill="#17181A" font-size="20" font-weight="700" letter-spacing=".8">EVENT MANAGEMENT · PAYMENTS · TICKETING · QR ADMISSION</text>
+<g transform="translate(900 62)">
+<rect x="0" y="0" width="244" height="170" fill="none" stroke="#17181A" stroke-width="2"/>
+<rect x="18" y="18" width="78" height="78" fill="#17181A"/>
+<rect x="108" y="18" width="118" height="18" fill="#17181A"/>
+<rect x="108" y="48" width="84" height="12" fill="#4E5054"/>
+<rect x="108" y="70" width="103" height="12" fill="#4E5054"/>
+<rect x="18" y="112" width="208" height="2" fill="#B8BABD"/>
+<rect x="18" y="130" width="144" height="12" fill="#17181A"/>
+<rect x="18" y="150" width="93" height="7" fill="#4E5054"/>
+</g>
+</g>
+</svg>
