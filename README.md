@@ -47,11 +47,11 @@ Currently migrating the platform toward a serverless architecture.
 
 **Knowledge · projects · collaboration**
 
-Co-created with Sam as a workspace for bringing documentation, projects, tasks and knowledge into one environment built around AI-assisted workflows.
+An AI-oriented workspace bringing documentation, projects, tasks and knowledge into one environment.
 
-Across NDEX, I've worked on the full-stack product experience, including collaborative workspaces, documents, task and Kanban workflows, realtime features, GitHub integration, search and the surrounding platform.
+My work across NDEX spans the full-stack product experience, including collaborative workspaces, documents, task and Kanban workflows, realtime features, GitHub integration, search and the surrounding platform.
 
-We're currently rebuilding NDEX with a new foundation, carrying forward what we've learned from the original platform while replacing some of its earliest technical decisions.
+NDEX is currently being rebuilt on a new foundation, carrying forward what worked from the original platform while replacing some of its earliest technical decisions.
 
 `FULL-STACK` `COLLABORATION` `REALTIME` `GITHUB` `PRODUCTIVITY` `AI`
 
