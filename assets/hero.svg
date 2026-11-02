@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111214"/><stop offset=".55" stop-color="#191a1d"/><stop offset="1" stop-color="#101113"/></linearGradient><radialGradient id="glow"><stop stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="22"/></filter></defs><style>.s{font-family:Inter,Arial,sans-serif}.m{font-family:Menlo,Consolas,monospace}.dash{stroke-dasharray:3 11;animation:move 18s linear infinite}@keyframes move{to{stroke-dashoffset:-280}}.p{animation:pulse 3s ease-in-out infinite}@keyframes pulse{50%{opacity:.3}}</style><rect width="1200" height="500" rx="22" fill="url(#bg)"/><circle cx="890" cy="235" r="250" fill="url(#glow)" filter="url(#blur)"/><path d="M-30 391 C120 260 230 465 365 333 S600 180 735 300 S940 430 1230 165" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="1.5"/><path class="dash" d="M-30 391 C120 260 230 465 365 333 S600 180 735 300 S940 430 1230 165" fill="none" stroke="#fff" stroke-opacity=".42" stroke-width="1.5"/><g fill="#fff"><circle class="p" cx="365" cy="333" r="4"/><circle class="p" cx="735" cy="300" r="4"/><circle class="p" cx="1010" cy="312" r="4"/></g><text x="58" y="62" class="m" fill="#8d9096" font-size="12" letter-spacing="2.2">BRXNDXNDIAZ / EINDHOVEN</text><text x="55" y="216" class="s" fill="#f6f6f3" font-size="118" font-weight="800" letter-spacing="-8">BRANDON</text><text x="55" y="325" class="s" fill="none" stroke="#f6f6f3" stroke-opacity=".78" stroke-width="2" font-size="118" font-weight="800" letter-spacing="-8">DIAZ</text><g transform="translate(810 90)"><rect width="315" height="126" rx="14" fill="#ffffff" fill-opacity=".035" stroke="#fff" stroke-opacity=".12"/><text x="22" y="35" class="m" fill="#858990" font-size="11" letter-spacing="1.5">CURRENTLY</text><text x="22" y="70" class="s" fill="#f4f4f1" font-size="21" font-weight="650">Software Engineering</text><text x="22" y="99" class="s" fill="#9da0a5" font-size="15">web · mobile · backend · infra</text></g><g class="m" font-size="11" fill="#777b82"><text x="58" y="456">01  EVENTO</text><text x="194" y="456">02  CARTE MAIL</text><text x="374" y="456">03  MUSIC</text><text x="1032" y="456">2026</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Brandon Diaz — Software Engineer">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101113"/><stop offset="1" stop-color="#1a1b1e"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f5f5f2" stop-opacity=".05"/><stop offset=".5" stop-color="#f5f5f2" stop-opacity=".28"/><stop offset="1" stop-color="#f5f5f2" stop-opacity=".05"/></linearGradient>
+</defs>
+<style>
+.s{font-family:Inter,Arial,sans-serif}.m{font-family:Menlo,Consolas,monospace}
+.scan{animation:scan 7s ease-in-out infinite}@keyframes scan{0%,100%{transform:translateX(-150px);opacity:0}15%,85%{opacity:1}50%{transform:translateX(1180px)}}
+</style>
+<rect width="1200" height="430" rx="20" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="428" rx="19" fill="none" stroke="#fff" stroke-opacity=".09"/>
+<g opacity=".12" stroke="#fff"><path d="M48 48H1152M48 382H1152"/><path d="M48 48V382M1152 48V382"/></g>
+<text x="58" y="75" class="m" fill="#8b8e94" font-size="12" letter-spacing="2.1">BRXNDXNDIAZ</text>
+<text x="58" y="205" class="s" fill="#f6f6f3" font-size="112" font-weight="800" letter-spacing="-7">BRANDON</text>
+<text x="58" y="314" class="s" fill="#f6f6f3" font-size="112" font-weight="800" letter-spacing="-7">DIAZ</text>
+<g transform="translate(820 255)">
+  <text x="0" y="0" class="m" fill="#8b8e94" font-size="11" letter-spacing="1.8">SOFTWARE ENGINEER</text>
+  <text x="0" y="32" class="s" fill="#f2f2ef" font-size="17">web · mobile · backend · infrastructure</text>
+  <text x="0" y="63" class="m" fill="#70737a" font-size="11">EINDHOVEN, NETHERLANDS</text>
+</g>
+<path d="M58 348H1142" stroke="url(#line)"/>
+<g class="scan"><rect x="0" y="347" width="120" height="2" rx="1" fill="#f5f5f2" opacity=".8"/></g>
+<g class="m" fill="#6f7278" font-size="10"><text x="58" y="390">ARUBA → NETHERLANDS</text><text x="1084" y="390">2026</text></g>
+</svg>
