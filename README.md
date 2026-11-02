@@ -1,48 +1,170 @@
-# Brandon Diaz
+<div align="center">
 
-**Software Engineer / Full-Stack Developer**  
-Eindhoven, Netherlands · Aruba
+# BRANDON DIAZ
 
-I work across web, mobile, backend and infrastructure. I'm studying Software Engineering at Fontys University of Applied Sciences and work part-time as a full-stack developer at Code for Good.
+### SOFTWARE ENGINEER · FULL-STACK DEVELOPER
 
-[Portfolio](https://brndndiaz.dev) · [LinkedIn](https://www.linkedin.com/in/brandonwdiaz/) · [Email](mailto:info@brndndiaz.dev)
+Software Engineering student at Fontys and Full-Stack Developer at Code for Good.
 
----
+I build and maintain full-stack products, with most of my work spanning TypeScript, backend systems, realtime data, infrastructure and application security.
 
-## Evento
+`EINDHOVEN, NL` &nbsp; ← &nbsp; `ARUBA`
 
-**Event ticketing for Aruba + Curaçao.**
+[Portfolio](https://brndndiaz.dev) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/brandonwdiaz/) &nbsp;·&nbsp; [Email](mailto:info@brndndiaz.dev)
 
-I work across the application, API and infrastructure: event management, payments, ticketing, QR admission, organizer tooling, authentication, deployment and operations.
+</div>
 
-`Next.js` `Laravel` `TypeScript` `PostgreSQL` `Redis` `Docker` `Cloudflare`
+<br>
+
+## SELECTED WORK
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<sub>01 / EVENTO</sub>
+
+### Event ticketing & operations
+
+**Aruba + Curaçao**
+
+Event platform supporting ticket sales, payments, attendee management and organizer operations.
+
+I lead the technical development across the platform, including its web and mobile applications, backend, integrations and production infrastructure.
+
+Currently migrating the platform toward a serverless architecture.
+
+`FULL-STACK` `PAYMENTS` `REALTIME` `INFRASTRUCTURE` `SECURITY`
 
 [theeventoapp.com →](https://theeventoapp.com/)
 
+</td>
+<td width="50%" valign="top">
+
+<sub>02 / NDEX</sub>
+
+### AI-oriented workspace / second brain
+
+**Knowledge · projects · collaboration**
+
+Co-created with Sam as a workspace for bringing documentation, projects, tasks and knowledge into one environment built around AI-assisted workflows.
+
+Across NDEX, I've worked on the full-stack product experience, including collaborative workspaces, documents, task and Kanban workflows, realtime features, GitHub integration, search and the surrounding platform.
+
+We're currently rebuilding NDEX with a new foundation, carrying forward what we've learned from the original platform while replacing some of its earliest technical decisions.
+
+`FULL-STACK` `COLLABORATION` `REALTIME` `GITHUB` `PRODUCTIVITY` `AI`
+
+</td>
+</tr>
+</table>
+
+<br>
+
 ---
 
-## Carte Mail
+<br>
 
-**Mail that runs on your server.**
+<table>
+<tr>
+<td width="30%" valign="top">
 
-Self-hosted mail platform. Currently in development.
+## WORK
+
+<sub>CODE FOR GOOD</sub>
+
+### Full-Stack Developer
+
+Part-time · Eindhoven
+
+</td>
+<td width="70%" valign="top">
+
+<br>
+
+Working across TypeScript-based web, mobile and backend systems alongside my Software Engineering studies.
+
+Originally joined after working with Code for Good as the client for our Fontys project, **Percepta**, an AI-assisted image-labelling application.
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ---
 
-## What I work with
+<br>
 
-**Web / mobile**  
-TypeScript · React · Next.js · React Native · Expo
+## ENGINEERING
 
-**Backend / data**  
-PHP · Go · Laravel · PostgreSQL · Redis
+<table>
+<tr>
+<td width="25%" valign="top">
 
-**Infrastructure**  
-Docker · Linux · Cloudflare
+<sub>01 / LANGUAGES</sub>
+
+**TypeScript**  
+JavaScript  
+Go  
+PHP  
+SQL
+
+</td>
+<td width="25%" valign="top">
+
+<sub>02 / FRONTEND</sub>
+
+**React**  
+Next.js  
+React Native  
+Expo
+
+</td>
+<td width="25%" valign="top">
+
+<sub>03 / BACKEND & DATA</sub>
+
+**APIs**  
+Relational data  
+Transactions  
+Realtime systems  
+Caching  
+Migrations
+
+</td>
+<td width="25%" valign="top">
+
+<sub>04 / PLATFORM</sub>
+
+**Cloudflare**  
+Docker  
+Linux  
+CI/CD  
+Observability
+
+</td>
+</tr>
+</table>
+
+<sub>05 / SECURITY</sub>
+
+Application security · Authentication · Trust boundaries · Security testing
+
+<br>
 
 ---
 
-## Outside software
+<br>
 
-**BRNDN D!AZ** — music production · piano · steelpan · guitar  
-Photography · graphic design · video editing
+## OUTSIDE OF CODE
+
+### Fueling my creative ideas through music production and art.
+
+<br>
+
+<div align="center">
+
+<sub>EINDHOVEN, NL &nbsp; / &nbsp; ARUBA</sub>
+
+</div>
