@@ -55,6 +55,8 @@ NDEX is currently being rebuilt on a new foundation, carrying forward what worke
 
 `FULL-STACK` `COLLABORATION` `REALTIME` `GITHUB` `PRODUCTIVITY` `AI`
 
+[ndex.space →](https://ndex.space/)
+
 </td>
 </tr>
 </table>
