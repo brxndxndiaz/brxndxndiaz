@@ -1,24 +1,26 @@
-<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
   <img src="./assets/hero.svg" width="100%" alt="Brandon Diaz — Software Engineer" />
-</p>
+</picture>
 
 <p align="center">
-  <a href="https://brndndiaz.dev">brndndiaz.dev</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/brandonwdiaz/">LinkedIn</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="https://brndndiaz.dev">Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/brandonwdiaz/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="mailto:info@brndndiaz.dev">Email</a>
 </p>
 
-Software Engineering at Fontys · Full-stack developer at Code for Good
+Software engineer working across frontend, backend and infrastructure. Studying Software Engineering at Fontys and working part-time as a full-stack developer at Code for Good.
 
 <br>
 
-## Evento
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/evento.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/evento-light.svg">
+  <img src="./assets/evento.svg" width="100%" alt="Evento — event ticketing for Aruba and Curaçao" />
+</picture>
 
-<p align="center">
-  <img src="./assets/evento.svg" width="100%" alt="Evento product system" />
-</p>
-
-Event ticketing platform for Aruba and Curaçao. My work spans the application, API and infrastructure: event management, payments, ticketing, QR admission, organizer tooling, authentication, deployment and operations.
+Evento is an event ticketing platform for Aruba and Curaçao. My work spans the application, API and infrastructure, including event management, payments, ticketing, QR admission and organizer tooling.
 
 [theeventoapp.com →](https://theeventoapp.com/)
 
@@ -26,18 +28,16 @@ Event ticketing platform for Aruba and Curaçao. My work spans the application, 
 
 ## Carte Mail
 
-Self-hosted mail platform. In development.
+Self-hosted mail platform. Currently in development.
 
 <br>
 
-## Stack
+## Working with
 
-<p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Technology stack" />
-</p>
+`TypeScript` · `PHP` · `Go` · `React` · `Next.js` · `React Native` · `Laravel` · `PostgreSQL` · `Redis` · `Docker` · `Linux`
 
 <br>
 
 ## Outside software
 
-**BRNDN D!AZ** · music production · piano · steelpan · guitar · photography · video
+**BRNDN D!AZ** — music production, piano, steelpan and guitar. Photography and video editing.
