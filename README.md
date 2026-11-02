@@ -8,21 +8,17 @@
   <a href="mailto:info@brndndiaz.dev">Email</a>
 </p>
 
-Software engineer working across frontend, backend and infrastructure. Based in Eindhoven, Netherlands.
-
-Currently studying Software Engineering at Fontys University of Applied Sciences and working part-time as a full-stack developer at Code for Good.
+Software engineer working across frontend, backend and infrastructure. Studying Software Engineering at Fontys and working part-time as a full-stack developer at Code for Good.
 
 <br>
 
 ## Evento
 
-<picture>
-  <img src="./assets/evento.svg" width="100%" alt="Evento system overview" />
-</picture>
+<p align="center">
+  <img src="./assets/evento.svg" width="100%" alt="Evento system map" />
+</p>
 
-Event ticketing platform for Aruba and Curaçao. I work across the application, API and infrastructure, including event management, ticketing, payments, QR admission, organizer tooling, authentication, deployment and operations.
-
-`Next.js` `Laravel` `TypeScript` `PostgreSQL` `Redis` `Docker` `Cloudflare`
+Event ticketing platform for Aruba and Curaçao. I work across the application, API and infrastructure: event management, ticketing, payments, QR admission, organizer tooling, authentication, deployment and operations.
 
 [theeventoapp.com →](https://theeventoapp.com/)
 
@@ -30,9 +26,7 @@ Event ticketing platform for Aruba and Curaçao. I work across the application, 
 
 ## Carte Mail
 
-**Mail that runs on your server.**
-
-Self-hosted mail infrastructure. Currently in development.
+**Mail that runs on your server.** Self-hosted mail infrastructure, currently in development.
 
 <br>
 
@@ -44,16 +38,6 @@ Self-hosted mail infrastructure. Currently in development.
 
 <br>
 
-## Activity
-
-<p align="center">
-  <img src="./assets/activity.svg" width="100%" alt="Recent public GitHub activity" />
-</p>
-
-<br>
-
 ## Outside software
 
-**BRNDN D!AZ** — music production, piano, steelpan and guitar.
-
-Photography and video editing.
+**BRNDN D!AZ** — music production, piano, steelpan and guitar. Photography and video editing.
