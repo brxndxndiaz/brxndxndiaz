@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-label="Brandon Diaz — Software Engineer">
+<rect width="1200" height="410" fill="#F4F4F0"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="54" y="54" fill="#17181A" font-size="22" font-weight="700" letter-spacing="2.4">SOFTWARE ENGINEER</text>
+<text x="1146" y="54" text-anchor="end" fill="#4E5054" font-size="20" letter-spacing="1.4">EINDHOVEN · NL</text>
+<text x="48" y="184" fill="#17181A" font-size="124" font-weight="900" letter-spacing="-7">BRANDON</text>
+<text x="48" y="306" fill="#17181A" font-size="124" font-weight="900" letter-spacing="-7">DIAZ</text>
+<rect x="930" y="113" width="216" height="7" fill="#17181A"/>
+<rect x="1020" y="130" width="126" height="7" fill="#17181A" opacity=".65"/>
+<rect x="1084" y="147" width="62" height="7" fill="#17181A" opacity=".35"/>
+<line x1="54" y1="355" x2="1146" y2="355" stroke="#B8BABD" stroke-width="1"/>
+<text x="54" y="385" fill="#4E5054" font-size="20" font-weight="700" letter-spacing="1.2">ARUBA → NETHERLANDS</text>
+<text x="1146" y="385" text-anchor="end" fill="#4E5054" font-size="20" letter-spacing="1.2">BRXNDXNDIAZ</text>
+</g>
+</svg>
