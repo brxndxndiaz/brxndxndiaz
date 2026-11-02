@@ -1,24 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Brandon Diaz — Software Engineer">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101113"/><stop offset="1" stop-color="#1a1b1e"/></linearGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f5f5f2" stop-opacity=".05"/><stop offset=".5" stop-color="#f5f5f2" stop-opacity=".28"/><stop offset="1" stop-color="#f5f5f2" stop-opacity=".05"/></linearGradient>
-</defs>
-<style>
-.s{font-family:Inter,Arial,sans-serif}.m{font-family:Menlo,Consolas,monospace}
-.scan{animation:scan 7s ease-in-out infinite}@keyframes scan{0%,100%{transform:translateX(-150px);opacity:0}15%,85%{opacity:1}50%{transform:translateX(1180px)}}
-</style>
-<rect width="1200" height="430" rx="20" fill="url(#bg)"/>
-<rect x="1" y="1" width="1198" height="428" rx="19" fill="none" stroke="#fff" stroke-opacity=".09"/>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101113"/><stop offset="1" stop-color="#1a1b1e"/></linearGradient><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f5f5f2" stop-opacity=".05"/><stop offset=".5" stop-color="#f5f5f2" stop-opacity=".28"/><stop offset="1" stop-color="#f5f5f2" stop-opacity=".05"/></linearGradient></defs>
+<style>.s{font-family:Inter,Arial,sans-serif}.m{font-family:Menlo,Consolas,monospace}.scan{animation:scan 7s ease-in-out infinite}@keyframes scan{0%,100%{transform:translateX(-150px);opacity:0}15%,85%{opacity:1}50%{transform:translateX(1180px)}}</style>
+<rect width="1200" height="430" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="428" rx="19" fill="none" stroke="#fff" stroke-opacity=".09"/>
 <g opacity=".12" stroke="#fff"><path d="M48 48H1152M48 382H1152"/><path d="M48 48V382M1152 48V382"/></g>
 <text x="58" y="75" class="m" fill="#8b8e94" font-size="12" letter-spacing="2.1">BRXNDXNDIAZ</text>
 <text x="58" y="205" class="s" fill="#f6f6f3" font-size="112" font-weight="800" letter-spacing="-7">BRANDON</text>
 <text x="58" y="314" class="s" fill="#f6f6f3" font-size="112" font-weight="800" letter-spacing="-7">DIAZ</text>
-<g transform="translate(820 255)">
-  <text x="0" y="0" class="m" fill="#8b8e94" font-size="11" letter-spacing="1.8">SOFTWARE ENGINEER</text>
-  <text x="0" y="32" class="s" fill="#f2f2ef" font-size="17">web · mobile · backend · infrastructure</text>
-  <text x="0" y="63" class="m" fill="#70737a" font-size="11">EINDHOVEN, NETHERLANDS</text>
-</g>
-<path d="M58 348H1142" stroke="url(#line)"/>
-<g class="scan"><rect x="0" y="347" width="120" height="2" rx="1" fill="#f5f5f2" opacity=".8"/></g>
-<g class="m" fill="#6f7278" font-size="10"><text x="58" y="390">ARUBA → NETHERLANDS</text><text x="1084" y="390">2026</text></g>
+<g transform="translate(735 174)"><text x="0" y="0" class="m" fill="#85888e" font-size="12" letter-spacing="2">SOFTWARE ENGINEER</text><text x="0" y="48" class="s" fill="#f2f2ef" font-size="25" font-weight="650">web · mobile · backend</text><text x="0" y="82" class="s" fill="#f2f2ef" font-size="25" font-weight="650">infrastructure</text><path d="M0 113H395" stroke="#fff" stroke-opacity=".10"/><text x="0" y="145" class="m" fill="#777a80" font-size="12">EINDHOVEN, NETHERLANDS</text><text x="0" y="170" class="m" fill="#777a80" font-size="12">FROM ARUBA</text></g>
+<path d="M58 348H1142" stroke="url(#line)"/><g class="scan"><rect x="0" y="347" width="120" height="2" rx="1" fill="#f5f5f2" opacity=".8"/></g>
+<g class="m" fill="#6f7278" font-size="10"><text x="58" y="400">FULL-STACK / PRODUCT / SYSTEMS</text><text x="1084" y="400">2026</text></g>
 </svg>
