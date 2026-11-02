@@ -1,18 +1,17 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="Brandon Diaz — Software Engineer and Full-Stack Developer" />
+</p>
 
-# BRANDON DIAZ
+<p align="center">
+  Software Engineering student at Fontys and Full-Stack Developer at Code for Good.<br>
+  I build and maintain full-stack products across web, mobile, backend systems, realtime data and infrastructure.
+</p>
 
-### SOFTWARE ENGINEER · FULL-STACK DEVELOPER
-
-Software Engineering student at Fontys and Full-Stack Developer at Code for Good.
-
-I build and maintain full-stack products, with most of my work spanning TypeScript, backend systems, realtime data, infrastructure and application security.
-
-`EINDHOVEN, NL` &nbsp; ← &nbsp; `ARUBA`
-
-[Portfolio](https://brndndiaz.dev) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/brandonwdiaz/) &nbsp;·&nbsp; [Email](mailto:info@brndndiaz.dev)
-
-</div>
+<p align="center">
+  <a href="https://brndndiaz.dev">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/brandonwdiaz/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:info@brndndiaz.dev">Email</a>
+</p>
 
 <br>
 
