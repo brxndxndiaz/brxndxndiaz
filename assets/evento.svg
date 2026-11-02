@@ -1,18 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="Evento product system">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141518"/><stop offset="1" stop-color="#1d1f22"/></linearGradient></defs>
-<style>.s{font-family:Inter,Arial,sans-serif}.m{font-family:Menlo,Consolas,monospace}.flow{stroke-dasharray:5 9;animation:f 14s linear infinite}@keyframes f{to{stroke-dashoffset:-196}}</style>
-<rect width="1200" height="390" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="388" rx="19" fill="none" stroke="#fff" stroke-opacity=".09"/>
-<text x="48" y="55" class="m" fill="#85888e" font-size="11" letter-spacing="2">EVENTO</text>
-<text x="48" y="100" class="s" fill="#f5f5f2" font-size="32" font-weight="720">Ticketing from discovery to the door.</text>
-<text x="48" y="129" class="s" fill="#8e9197" font-size="15">One product across customers, organizers, admission and operations.</text>
-<g transform="translate(48 174)">
-  <path class="flow" d="M196 72H310M506 72H620M816 72H930" fill="none" stroke="#fff" stroke-opacity=".24" stroke-width="1.5"/>
-  <g class="m">
-    <g><rect width="196" height="144" rx="14" fill="#222428" stroke="#fff" stroke-opacity=".12"/><text x="20" y="35" fill="#777a81" font-size="10" letter-spacing="1.4">01 / CUSTOMER</text><text x="20" y="70" fill="#f2f2ef" font-size="17">WEB + MOBILE</text><text x="20" y="99" fill="#999ca2" font-size="11">discover · checkout</text><text x="20" y="119" fill="#999ca2" font-size="11">tickets · account</text></g>
-    <g transform="translate(310)"><rect width="196" height="144" rx="14" fill="#f2f2ef"/><text x="20" y="35" fill="#6d7075" font-size="10" letter-spacing="1.4">02 / CORE</text><text x="20" y="70" fill="#17181a" font-size="17" font-weight="700">EVENTO API</text><text x="20" y="99" fill="#595c61" font-size="11">events · orders</text><text x="20" y="119" fill="#595c61" font-size="11">payments · tickets</text></g>
-    <g transform="translate(620)"><rect width="196" height="144" rx="14" fill="#222428" stroke="#fff" stroke-opacity=".12"/><text x="20" y="35" fill="#777a81" font-size="10" letter-spacing="1.4">03 / OPERATE</text><text x="20" y="70" fill="#f2f2ef" font-size="17">ORGANIZERS</text><text x="20" y="99" fill="#999ca2" font-size="11">manage · staff</text><text x="20" y="119" fill="#999ca2" font-size="11">reporting · content</text></g>
-    <g transform="translate(930)"><rect width="196" height="144" rx="14" fill="#222428" stroke="#fff" stroke-opacity=".12"/><text x="20" y="35" fill="#777a81" font-size="10" letter-spacing="1.4">04 / VENUE</text><text x="20" y="70" fill="#f2f2ef" font-size="17">ADMISSION</text><text x="20" y="99" fill="#999ca2" font-size="11">QR scan · check-in</text><text x="20" y="119" fill="#999ca2" font-size="11">on-site operations</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Evento — event ticketing for Aruba and Curaçao">
+<rect width="1200" height="360" fill="#17181A"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="54" y="55" fill="#B8BABD" font-size="20" font-weight="700" letter-spacing="1.5">FEATURED WORK · 01</text>
+<text x="54" y="154" fill="#F4F4F0" font-size="82" font-weight="900" letter-spacing="-4">EVENTO</text>
+<text x="56" y="198" fill="#F4F4F0" font-size="28" font-weight="700">Event ticketing for Aruba + Curaçao</text>
+<text x="56" y="238" fill="#B8BABD" font-size="24">Full-stack development across product, API and operations.</text>
+<line x1="56" y1="282" x2="1144" y2="282" stroke="#4E5054" stroke-width="1"/>
+<text x="56" y="320" fill="#F4F4F0" font-size="20" font-weight="700" letter-spacing=".8">EVENT MANAGEMENT · PAYMENTS · TICKETING · QR ADMISSION</text>
+<g transform="translate(900 62)">
+<rect x="0" y="0" width="244" height="170" fill="none" stroke="#F4F4F0" stroke-width="2"/>
+<rect x="18" y="18" width="78" height="78" fill="#F4F4F0"/>
+<rect x="108" y="18" width="118" height="18" fill="#F4F4F0"/>
+<rect x="108" y="48" width="84" height="12" fill="#B8BABD"/>
+<rect x="108" y="70" width="103" height="12" fill="#B8BABD"/>
+<rect x="18" y="112" width="208" height="2" fill="#4E5054"/>
+<rect x="18" y="130" width="144" height="12" fill="#F4F4F0"/>
+<rect x="18" y="150" width="93" height="7" fill="#B8BABD"/>
 </g>
-<g class="m" fill="#73767c" font-size="10"><text x="48" y="352">NEXT.JS · LARAVEL · POSTGRESQL · REDIS · DOCKER · CLOUDFLARE</text><text x="1152" y="352" text-anchor="end">ARUBA / CURAÇAO</text></g>
+</g>
 </svg>
