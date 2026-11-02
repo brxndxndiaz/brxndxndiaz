@@ -4,22 +4,83 @@
       <stop offset="0" stop-color="#252525"/>
       <stop offset="1" stop-color="#1D1D1D"/>
     </linearGradient>
-    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="18"/>
+
+    <!-- Procedural deformation field: closer to a tiny shader pass than path tweening. -->
+    <filter id="fluid" x="-45%" y="-45%" width="190%" height="190%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.010 0.014" numOctaves="3" seed="17" result="noise">
+        <animate attributeName="baseFrequency" dur="11s" repeatCount="indefinite"
+          values="0.010 0.014;0.014 0.009;0.008 0.016;0.012 0.011;0.010 0.014"
+          keyTimes="0;0.23;0.51;0.78;1"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="34" xChannelSelector="R" yChannelSelector="B" result="warped">
+        <animate attributeName="scale" dur="7.4s" repeatCount="indefinite" values="28;42;31;38;28" keyTimes="0;0.27;0.55;0.81;1"/>
+      </feDisplacementMap>
+      <feGaussianBlur in="warped" stdDeviation="0.45"/>
     </filter>
+
+    <filter id="fluidSoft" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.009 0.012" numOctaves="2" seed="31" result="noise">
+        <animate attributeName="baseFrequency" dur="13s" repeatCount="indefinite"
+          values="0.009 0.012;0.013 0.008;0.007 0.015;0.011 0.010;0.009 0.012"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="45" xChannelSelector="R" yChannelSelector="G" result="warped">
+        <animate attributeName="scale" dur="9.2s" repeatCount="indefinite" values="36;54;41;49;36"/>
+      </feDisplacementMap>
+      <feGaussianBlur in="warped" stdDeviation="15"/>
+    </filter>
+
+    <radialGradient id="body" cx="34%" cy="27%" r="74%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="0.35" stop-color="#F5F5F2" stop-opacity="0.76"/>
+      <stop offset="0.72" stop-color="#BDBDB8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#777772" stop-opacity="0.18"/>
+    </radialGradient>
   </defs>
 
   <rect width="1200" height="390" rx="22" fill="url(#fade)"/>
   <rect x="1" y="1" width="1198" height="388" rx="21" stroke="#FFFFFF" stroke-opacity="0.08"/>
 
-  <!-- restrained ferrofluid mark -->
+  <!-- Fluid mass. Multiple independently moving lobes create inertia / surface-tension-like motion. -->
   <g transform="translate(925 194)">
-    <circle cx="0" cy="0" r="112" fill="#F5F5F2" fill-opacity="0.025"/>
-    <path d="M-77 17C-91-19-68-59-35-68C-8-76 4-99 29-89C54-80 47-50 68-36C94-19 97 22 73 43C51 63 49 93 18 96C-14 100-28 72-53 61C-72 53-69 37-77 17Z" fill="#F5F5F2" fill-opacity="0.10" filter="url(#soft)"/>
-    <path d="M-66 12C-75-17-57-48-30-57C-6-65 6-84 27-74C47-65 43-42 60-29C80-13 81 18 63 35C45 52 42 75 17 78C-9 81-22 59-43 50C-60 43-60 29-66 12Z" stroke="#F5F5F2" stroke-opacity="0.42" stroke-width="1.4"/>
-    <circle cx="-19" cy="-18" r="25" fill="#F5F5F2" fill-opacity="0.86"/>
-    <circle cx="26" cy="25" r="18" fill="#F5F5F2" fill-opacity="0.52"/>
-    <circle cx="40" cy="-36" r="8" fill="#F5F5F2" fill-opacity="0.28"/>
+    <circle r="119" fill="#F5F5F2" fill-opacity="0.018"/>
+
+    <g filter="url(#fluidSoft)" opacity="0.58">
+      <ellipse rx="73" ry="68" fill="#F5F5F2" fill-opacity="0.15">
+        <animateTransform attributeName="transform" type="translate" dur="8.7s" repeatCount="indefinite"
+          values="-8 5;8 -9;15 3;-4 12;-8 5" keyTimes="0;0.26;0.52;0.79;1"/>
+      </ellipse>
+    </g>
+
+    <g filter="url(#fluid)">
+      <path d="M-69 8C-77-26-54-61-21-68C5-74 18-87 43-70C64-55 59-30 75-8C91 15 79 49 54 61C31 72 19 87-9 78C-36 70-41 51-59 37C-72 27-65 19-69 8Z" fill="url(#body)">
+        <animateTransform attributeName="transform" type="rotate" dur="16s" repeatCount="indefinite"
+          values="0;4;-3;2;0" keyTimes="0;0.24;0.53;0.79;1"/>
+      </path>
+
+      <ellipse cx="-43" cy="-25" rx="34" ry="29" fill="#F5F5F2" fill-opacity="0.72">
+        <animate attributeName="cx" dur="6.8s" repeatCount="indefinite" values="-43;-31;-38;-49;-43"/>
+        <animate attributeName="cy" dur="8.1s" repeatCount="indefinite" values="-25;-37;-19;-30;-25"/>
+        <animate attributeName="rx" dur="7.3s" repeatCount="indefinite" values="34;27;38;31;34"/>
+        <animate attributeName="ry" dur="6.2s" repeatCount="indefinite" values="29;36;25;33;29"/>
+      </ellipse>
+
+      <ellipse cx="35" cy="31" rx="27" ry="23" fill="#F5F5F2" fill-opacity="0.48">
+        <animate attributeName="cx" dur="7.9s" repeatCount="indefinite" values="35;49;30;42;35"/>
+        <animate attributeName="cy" dur="6.6s" repeatCount="indefinite" values="31;19;39;27;31"/>
+        <animate attributeName="rx" dur="8.4s" repeatCount="indefinite" values="27;20;31;24;27"/>
+      </ellipse>
+
+      <circle cx="52" cy="-47" r="10" fill="#F5F5F2" fill-opacity="0.30">
+        <animate attributeName="cx" dur="5.9s" repeatCount="indefinite" values="52;63;47;57;52"/>
+        <animate attributeName="cy" dur="7.1s" repeatCount="indefinite" values="-47;-38;-55;-43;-47"/>
+        <animate attributeName="r" dur="6.4s" repeatCount="indefinite" values="10;7;12;8;10"/>
+      </circle>
+    </g>
+
+    <!-- specular traces remain slightly out of phase with the body -->
+    <ellipse cx="-30" cy="-38" rx="21" ry="9" transform="rotate(-24 -30 -38)" fill="#FFFFFF" fill-opacity="0.22">
+      <animate attributeName="fill-opacity" dur="5.6s" repeatCount="indefinite" values="0.16;0.30;0.19;0.25;0.16"/>
+    </ellipse>
   </g>
 
   <text x="70" y="72" fill="#F5F5F2" fill-opacity="0.48" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3.2">SOFTWARE ENGINEER / FULL-STACK DEVELOPER</text>
@@ -30,6 +91,5 @@
   <text x="70" y="343" fill="#F5F5F2" fill-opacity="0.60" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="2.4">EINDHOVEN, NL</text>
   <text x="251" y="343" fill="#F5F5F2" fill-opacity="0.24" font-family="Arial, Helvetica, sans-serif" font-size="13">←</text>
   <text x="289" y="343" fill="#F5F5F2" fill-opacity="0.60" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="2.4">ARUBA</text>
-
   <text x="1130" y="343" text-anchor="end" fill="#F5F5F2" fill-opacity="0.24" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2">01 / PROFILE</text>
 </svg>
